@@ -1,6 +1,8 @@
 -- Initially created on 9 March 2025
 require("config.lazy")
 
+vim.opt.tabstop = 8
+vim.opt.shiftwidth = 4
 vim.opt.number = true
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
