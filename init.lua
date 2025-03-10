@@ -7,7 +7,7 @@ vim.opt.number = true
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
 vim.o.background = "dark" 
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme sonokai]])
 
 vim.cmd [[
   highlight Normal guibg=none
