@@ -7,9 +7,7 @@ vim.opt.number = true
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = "number"
 vim.o.background = "dark" 
-vim.cmd([[colorscheme visual_studio_code]])
-vim.cmd([[filetype on]])
-vim.cmd([[filetype plugin on]])
+vim.cmd([[colorscheme sonokai]])
 
 vim.cmd [[
   highlight Normal guibg=none
